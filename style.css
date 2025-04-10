@@ -385,6 +385,21 @@ footer p{
 }
 
 
+  
+}
+.download button {
+    justify-content: center;
+    margin-top: 2rem; 
+    background-color: transparent;
+    align-content: center;
+    color: #B17457;
+    padding: 1rem 1.5rem;
+    border: .3rem solid #B17457;
+    border-radius: 9999px;
+    cursor: pointer;
+    /* margin-left: 1rem; */
+}
+
 /*TOGGLE CHECKBOX */
 
 #menu-toggle {
