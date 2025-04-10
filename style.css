@@ -385,19 +385,21 @@ footer p{
 }
 
 
-  
+.download{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
-.download button {
-    justify-content: center;
-    margin-top: 2rem; 
+
+.download a{
+    font-size: 2rem;
     background-color: transparent;
     align-content: center;
     color: #B17457;
-    padding: 1rem 1.5rem;
+    padding: 1rem 2rem;
     border: .3rem solid #B17457;
     border-radius: 9999px;
     cursor: pointer;
-    /* margin-left: 1rem; */
 }
 
 /*TOGGLE CHECKBOX */
