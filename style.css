@@ -14,7 +14,7 @@
     font-size: 62.5%;
  }
 body{
-    background:#dfdbd4;
+    background:#F6F6F6;
     color: #4A4947;
 }
 
@@ -62,7 +62,7 @@ header{
     flex: 30rem 1 1;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #FAF7F0;
+    background-color: #fff;
     border-radius: 1rem;
     padding: 1rem 0.5rem;
     margin: 7% 4% 4% 4%;
@@ -74,29 +74,29 @@ header{
 
 .hero .images img{
     width: 60rem    ;
-    margin-right: 3rem;
+    margin-right: 2.5rem;
 }
 
 .hero .images .icon {
     display: flex;
     gap: 3rem;
     justify-content: center;
-    margin-top: 1rem;
     z-index: 10;
     position: relative;
 }
 
 .hero .images .icon a {
-    font-size: 3.2rem;
+    font-size: 4rem;
     color: #4A4947;
     text-decoration: none;
+    margin: 1rem;
     transition: color 0.3s ease;
     display: inline-block;
     cursor: pointer;
 }
 
 .hero .images .icon a:hover {
-    color: #B17457;
+    color: #278067;
 }
 
 
@@ -112,7 +112,7 @@ header{
     font-weight: bolder;
 }
 .hero .info .heading span{
-    color: #B17457;
+    color: #278067;
     font-weight: 700;
 }
 .hero .info .heading h3{
@@ -134,7 +134,7 @@ header{
     font-size: 3rem;
     color: #4A4947;
     padding: .3rem 0;
-    border-bottom: .3rem solid #B17457;
+    border-bottom: .3rem solid #278067;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -152,7 +152,7 @@ header{
     min-height: 80vh;
     display: block;
     align-items: center;
-    background-color: #FAF7F0;
+    background-color: #fff;
     border-radius: 1rem;
     padding: 1rem 0.5rem;
     margin: 7% 4% 4% 4%;
@@ -160,7 +160,7 @@ header{
     padding-bottom: 8rem;
 }
 .mid hr{
-    border-bottom: .5rem solid #B17457;
+    border-bottom: .5rem solid #278067;
     border-radius: 1rem;
     width: 15%;
     margin: 0 auto 4rem;
@@ -190,7 +190,7 @@ header{
 .hobbies .hoby{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 4rem;
     flex-wrap: wrap;
 }
@@ -203,7 +203,7 @@ header{
 }
 .hobbies .hoby .hoby-icon img{
     width: 6rem;
-    color: #B17457;
+    color: #278067;
     padding-bottom: 2rem;
     filter: opacity(70%);
 }
@@ -221,7 +221,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .skill .skills-content .content {
@@ -249,7 +249,7 @@ header{
 
 /* PORTOFOLIO */
 .portofolio{
-    background-color: #FAF7F0;
+    background-color: #fff;
     border-radius: 1rem;
     padding: 1rem 0.5rem;
     margin: 7% 4% 4% 4%;
@@ -269,7 +269,7 @@ header{
 }
 
 .card {
-    background-color: #fff;
+    background-color: #F6F6F6;
     border-radius: 2.4rem;
     box-shadow: 2rem 2rem 1.4rem rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -323,7 +323,7 @@ header{
 /* EMAIL */
 .contact-container {
     justify-items: center;
-    background-color: #FAF7F0;
+    background-color: #fff;
     padding:4rem 2rem;
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -342,15 +342,15 @@ header{
 .form-group textarea {
     width: 100%;
     border: none;
-    border-bottom: 2px solid #B17457;
+    border-bottom: 2px solid #278067;
     padding: 0.8rem 0;
     outline: none;
     resize: none;
-    background-color: #FAF7F0;
+    background-color: #fff;
 }
 .form-group input:focus,
 .form-group textarea:focus {
-    border-bottom-color: #B17457;
+    border-bottom-color: #278067;
 }
 .form-footer {
     display: flex;
@@ -363,7 +363,7 @@ header{
     font-weight: 300;
 }
 .form-footer button {
-    background-color: #B17457;
+    background-color: #278067;
     color: #ffffff;
     padding: 1rem 1.5rem;
     border: none;
@@ -384,7 +384,7 @@ footer p{
     font-size: 1.3rem;
 }
 
-
+/* DOWNLOAD */
 .download{
   display: flex;
   justify-content: center;
@@ -395,13 +395,17 @@ footer p{
     font-size: 2rem;
     background-color: transparent;
     align-content: center;
-    color: #B17457;
+    color: #278067;
     padding: 1rem 2rem;
-    border: .3rem solid #B17457;
+    border: .3rem solid #278067;
     border-radius: 9999px;
     cursor: pointer;
 }
 
+.download a:hover{
+  background-color: #278067;
+  color: #fff;
+}
 /*TOGGLE CHECKBOX */
 
 #menu-toggle {
@@ -520,7 +524,7 @@ footer p{
         text-align: center;
         margin: 1rem 0;
     }
-
+  
     .hero .info {
         align-items: center;
         text-align: center;
@@ -577,6 +581,10 @@ footer p{
         font-size: 55%;
     }
     
+    #hero, #about, #portofolio{
+      margin-bottom: 8rem;
+    }
+    
     .menu-icon {
         display: block;
         position: absolute;
@@ -588,13 +596,14 @@ footer p{
         position: absolute;
         top: 0;
         right: 0;
-        background-color: #dfdbd4;
+        background-color: #F6F6F6;
         text-align: right;
         flex-direction: column;
         width: 40%;
         display: none;
         padding: 7rem 20px 3rem 10px;
         line-height: 2;
+        transition: all 500ms ease-out;
     }
 
     #menu-toggle:checked + .menu-icon + .navbar {
@@ -612,7 +621,15 @@ footer p{
     .hero .info .heading h3 {
         font-size: 2.5rem;
     }
-
+    
+     .hero .images .icon a {
+    font-size: 3rem;
+    }
+    
+    .hero .info .box-container .box{
+      margin-bottom: 2rem;
+    }
+  
     .hero .info .box-container .box h3 {
         font-size: 2.2rem;
     }
@@ -626,7 +643,7 @@ footer p{
     
         .grid {
         padding: 1rem;
-        gap: 2rem;
+        gap: 3rem;
     }
 
     .card-title {
