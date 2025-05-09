@@ -274,16 +274,12 @@ header{
     box-shadow: 2rem 2rem 1.4rem rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
+.card a{
+  text-decoration: none;
+  color: #4A4947;
+}
 .card a img {
     width: 100%;
-    object-fit: cover;
-}
-
-.card::after{
-   content: "";
-   position: absolute;
-   inset: 0;
-   opacity: 0;
 }
 .card:hover img{
     filter: grayscale(1) brightness(0.4);
